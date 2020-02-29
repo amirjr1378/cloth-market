@@ -51,6 +51,7 @@ export const CloseButton = styled.div`
 
 export const Description = styled.div`
    display: flex;
+   flex-grow:1;
    align-items: center;
 `
 
