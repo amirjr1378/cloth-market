@@ -18,8 +18,8 @@ function Product({ name, imageUrl, price, id }) {
             </Overlay>
          </AddToCart>
          <Description>
-            <div>{name}</div>
-            <div>{price}$</div>
+            <div data-testid="product-name">{name}</div>
+            <div data-testid="product-price">{price}$</div>
          </Description>
       </ProductContainer>
    );
@@ -27,6 +27,8 @@ function Product({ name, imageUrl, price, id }) {
 
 
 Product.propTypes = {
+    name: PropTypes.string.isRequired,
+    price:PropTypes.number.isRequired,
 };
 
 export default Product;

@@ -1,6 +1,6 @@
 import React from 'react';
 import {DirectoryContainer} from './Directory.styles.js';
-import CollectionItem from './CollectionItem';
+import CollectionItem from '../../components/CollectionItem';
 const sections = [
     {
       title: 'hats',

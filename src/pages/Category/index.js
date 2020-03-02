@@ -12,6 +12,7 @@ function Category({ ...props }) {
    const categoryData = data.find(d => d.routeName === categoryType)
 
    const {page, loadMore, hasMore, currentItems } = useInfiniteScroll(categoryData.items)
+   console.log('categoryData.items: ', categoryData.items);
 
    return (
       <InfiniteScroll

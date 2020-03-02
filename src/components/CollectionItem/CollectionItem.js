@@ -3,11 +3,11 @@ import {
    ItemContainer, 
    TitleContainer,
    BackgroundContainer
-} from './Directory.styles';
+} from './styles';
 
 function CollectionItem({ imageUrl, title, linkUrl, size }) {
    return (
-      <ItemContainer to={linkUrl} size={size}>
+      <ItemContainer to={linkUrl} size={size} data-testid="directory-link">
          <BackgroundContainer url={imageUrl} />
          <TitleContainer>{title}</TitleContainer>
       </ItemContainer>

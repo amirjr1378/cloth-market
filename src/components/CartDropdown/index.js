@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function CartDropdown({ items, hidden = true, toggle }) {
    return !hidden ? (
       <DropdownContainer>
-         <CloseButton onClick={toggle}>
+         <CloseButton onClick={toggle} data-testid="close-cart">
             <FontAwesomeIcon icon={["fas", "times"]} />
          </CloseButton>
          {items.length ? (
@@ -27,7 +27,7 @@ function CartDropdown({ items, hidden = true, toggle }) {
 
 CartDropdown.propTypes = {
    items: PropTypes.array,
-   cartDropdownHidden: PropTypes.bool,
+   hidden: PropTypes.bool,
    toggle: PropTypes.func.isRequired,
 };
 

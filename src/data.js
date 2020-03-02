@@ -123,31 +123,31 @@ const SHOP_DATA = [
       {
         id: 18,
         name: 'black jean shearling',
-        imageurl: 'https://i.ibb.co/xzcwl5s/black-shearling.png',
-        price: 125
+        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        price: 85
       },
       {
         id: 19,
         name: 'blue jean jacket',
-        imageurl: 'https://i.ibb.co/mjs6vz0/blue-jean-jacket.png',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 90
       },
       {
         id: 20,
         name: 'grey jean jacket',
-        imageurl: 'https://i.ibb.co/n71k1ml/grey-jean-jacket.png',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 90
       },
       {
         id: 21,
         name: 'brown shearling',
-        imageurl: 'https://i.ibb.co/s96fpdp/brown-shearling.png',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 165
       },
       {
         id: 22,
         name: 'tan trench',
-        imageurl: 'https://i.ibb.co/m6hhc3f/brown-trench.png',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 185
       }
     ]

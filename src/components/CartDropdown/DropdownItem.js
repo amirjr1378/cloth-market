@@ -14,14 +14,14 @@ function DropdownItem({name, imageUrl, price, count = 1, id}) {
       <DropdownItemContainer>
          <Description>
             <Img src={imageUrl} alt={name} />
-            {name}
+            <span data-testid="product-name">{name}</span>
          </Description> 
          <Quantity>
-            <FontAwesomeIcon icon={['fas', 'less-than']} onClick={dec} />
-            <span style={{margin: 10}}>{count}</span>
-            <FontAwesomeIcon icon={['fas', 'greater-than']} onClick={inc}/>
+            <FontAwesomeIcon data-testid="minus" icon={['fas', 'less-than']} onClick={dec} />
+            <span data-testid="product-count" style={{margin: 10}}>{count}</span>
+            <FontAwesomeIcon data-testid="plus" icon={['fas', 'greater-than']} onClick={inc}/>
          </Quantity>
-            <span>{price}$</span>
+            <span data-testid="product-price">{price}$</span>
       </DropdownItemContainer>
    );
 }
